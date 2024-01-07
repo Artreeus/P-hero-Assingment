@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Merriweather:wght@300;400;900&display=swap");
 
-
 /* Basic Css  */
 
 * {
@@ -62,14 +61,14 @@ header {
   border-radius: 16px;
 }
 
-.header .linear > * {
+.header > * {
   z-index: 100;
   position: relative;
 }
 
 .header {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 15%;
   color: #fff;
 }
 
@@ -81,7 +80,7 @@ header {
 }
 
 .header h1 {
-  color: #fff;
+  color: rgb(236, 112, 112);
   font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
@@ -325,15 +324,14 @@ header {
   align-items: center;
 }
 
-.gallery img{
-    transition: 0.6s ease-in-out;
-    filter: grayscale(0%);
+.gallery img {
+  transition: 0.6s ease-in-out;
+  filter: grayscale(0%);
 }
 
-.gallery img:hover{
-    transform: scale(1.1); 
-    filter: hue-rotate(90deg);
-
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: hue-rotate(90deg);
 }
 
 .gallery .text h5 {
@@ -438,13 +436,11 @@ footer {
   height: 609px;
   background: #070211;
   margin: 150px 0 0 0;
-
 }
 
-
-footer .upper , .lower{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+footer .upper,
+.lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
