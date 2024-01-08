@@ -36,7 +36,8 @@ header {
   width: 1320px;
   height: 600px;
   margin: 0 auto;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url(images/Banner\ Image.png);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Banner\ Image.png);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -441,9 +442,37 @@ footer .upper .right1 i {
 }
 
 footer hr {
-  height: 1px;
-  width: 80%; 
+  height: 0.1px !important;
+  width: 80%;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.15);
   margin-top: 25px;
+}
+
+footer .mid {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .mid img{
+  width: 64px;
+height: 64px;
+margin-right: 25px;
+}
+
+
+footer .lower {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .lower p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  padding-top: 50px;
 }
